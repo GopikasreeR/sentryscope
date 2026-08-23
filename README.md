@@ -4,7 +4,7 @@ An ESP32-based multi-sensor intrusion detection and smart camera system. SentryS
 
 Built for **BECE320E – Embedded C Programming**, School of Electronics Engineering, VIT Chennai (April 2026).
 
-> 📄 Full project report (design, literature survey, simulation, hardware results): [`docs/SentryScope_Project_Report.pdf`](docs/SentryScope_Project_Report.pdf)
+>  Full project report (design, literature survey, simulation, hardware results): [`docs/SentryScope_Project_Report.pdf`](docs/SentryScope_Project_Report.pdf)
 
 ---
 
@@ -87,7 +87,6 @@ Full BOM and component specs are in the [project report](docs/SentryScope_Projec
 ```
 SentryScope-Perimeter-Monitoring/
 ├── README.md
-├── LICENSE
 ├── docs/
 │   └── SentryScope_Project_Report.pdf        # Full report: design, survey, results
 ├── firmware/
@@ -106,7 +105,6 @@ SentryScope-Perimeter-Monitoring/
 │       └── ci.yml
 └── images/
     ├── hardware_setup.jpg
-    ├── system_schematic.png
     └── livestream_demo.jpg
 ```
 
@@ -190,9 +188,6 @@ See §4.2–4.3 of the [project report](docs/SentryScope_Project_Report.pdf) for
 
 Guided by **Dr. A. Sivasubramanian**, School of Electronics Engineering, VIT Chennai.
 
-## License
-
-This project's original code (`firmware/`) is released under the [MIT License](LICENSE) unless noted otherwise. The reference files under `reference/esp32cam_webserver_example/` are Espressif's stock `CameraWebServer` example and remain under the **Apache License 2.0**, per their original headers.
 
 ## Acknowledgements
 
